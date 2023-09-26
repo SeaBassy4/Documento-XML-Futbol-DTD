@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE XMLFutbol [
+        <!ELEMENT XMLFutbol (Partido)*>
+        <!ELEMENT Partido (Fecha|Equipos|MarcadorFinal|Goles)*>
+        <!ELEMENT Fecha (#PCDATA)>
+        <!ELEMENT Equipos (#PCDATA)>
+        <!ELEMENT MarcadorFinal (#PCDATA)>
+        <!ELEMENT Goles (#PCDATA)>
+        ]>
+<XMLFutbol>
+    <Partido>
+        <Fecha>Miércoles 20 de Septiembre 2023</Fecha>
+        <Equipos>Querétaro vs América</Equipos>
+        <MarcadorFinal>1-2</MarcadorFinal>
+        <Goles>Raúl Zúñiga (11'), QRO</Goles>
+        <Goles>Diego Valdés (52'), AME</Goles>
+        <Goles>Igor Lichnovsky (78'), AME</Goles>
+    </Partido>
+</XMLFutbol>
+
+
+
